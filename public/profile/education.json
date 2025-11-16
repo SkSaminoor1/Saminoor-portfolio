@@ -1,0 +1,25 @@
+{
+  "education": [
+    {
+      "title": "2022 - 2026",
+      "cardTitle": "Bachelor of Engineering in Computer Science and Engineering",
+      "cardSubtitle": "HKBK College of Engineering, VTU, Bangalore",
+      "cardDetailedText": "CGPA - 7.6",
+      "icon": {
+        "src": "images/education/engineering.png"
+      }
+    },
+    {
+      "title": "2022",
+      "cardTitle": "Higher Secondary (12th Grade)",
+      "cardSubtitle": "WBCHSE Board, West Bengal",
+      "cardDetailedText": "Percentage - 72.6%"
+    },
+    {
+      "title": "2020",
+      "cardTitle": "Secondary (10th Grade)",
+      "cardSubtitle": "WBBSE Board, West Bengal",
+      "cardDetailedText": "Percentage - 62.8%"
+    }
+  ]
+}

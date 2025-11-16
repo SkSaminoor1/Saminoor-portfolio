@@ -1,0 +1,148 @@
+{
+  "projects": [
+    {
+      "image": "images/projects/face-recognition.png",
+      "title": "Face Recognition Attendance System",
+      "bodyText": "- Developed an automated attendance system using **Python**, **OpenCV**, and **Flask**.\n- Achieved over 95% recognition accuracy for 50+ users.\n- Integrated **MySQL** backend and dashboard to visualize daily attendance logs.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/SkSaminoor1/Face-Recognition-Attendance-System"
+        }
+      ],
+      "tags": ["Python", "Flask", "OpenCV", "MySQL", "Computer Vision"]
+    },
+    {
+      "image": "images/projects/virtual-assistant.png",
+      "title": "AI-Driven Virtual Assistant",
+      "bodyText": "- Created a voice-enabled desktop assistant using **Python** and **SpeechRecognition API**.\n- Automated 20+ daily OS tasks including web search, app control, and reminders.\n- Improved performance through multithreading for real-time interaction.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/SkSaminoor1/PC-assistant-with-AI"
+        }
+      ],
+      "tags": ["Python", "AI", "Automation", "SpeechRecognition", "NLP"]
+    },
+    {
+      "image": "images/projects/health-analysis.png",
+      "title": "Health Care Data Analysis",
+      "bodyText": "- Analyzed healthcare records using **Python**, **Pandas**, and **Matplotlib** to uncover medical cost trends.\n- Applied EDA and data visualization techniques to identify patient behavior insights.\n- Generated actionable insights to optimize healthcare operations.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/SkSaminoor1/Health-Care_Analysis"
+        }
+      ],
+      "tags": ["Python", "EDA", "Jupyter Notebook", "Pandas", "Visualization"]
+    },
+    {
+      "image": "images/projects/gym-management.png",
+      "title": "Gym Management System",
+      "bodyText": "- Built a **JavaScript + Node.js** application for managing gym memberships, trainers, and schedules.\n- Implemented CRUD operations with **Express.js** and **MongoDB** backend.\n- Designed responsive UI for admin and user dashboards.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/SkSaminoor1/gym-management-system"
+        }
+      ],
+      "tags": ["JavaScript", "Node.js", "Express", "MongoDB", "Backend"]
+    },
+    {
+      "image": "images/projects/ecommerce.png",
+      "title": "E-commerce Site",
+      "bodyText": "- Developed a mini e-commerce web app using **JavaScript**, **HTML**, and **CSS**.\n- Implemented product listing, cart system, and checkout functionality.\n- Focused on clean UI and responsive front-end architecture.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/SkSaminoor1/eCommerce_site"
+        }
+      ],
+      "tags": ["JavaScript", "Frontend", "Web Development", "E-commerce"]
+    },
+    {
+      "image": "images/projects/mutual-fund.png",
+      "title": "Mutual Fund Analysis Dashboard",
+      "bodyText": "- Created an analytical dashboard to visualize mutual fund performance and trends.\n- Utilized **Pandas**, **Matplotlib**, and **Seaborn** for in-depth market analysis.\n- Delivered KPIs for better investment decision-making.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/SkSaminoor1/Mutual-fund-analysis-Dashboard"
+        }
+      ],
+      "tags": ["Python", "Data Visualization", "Finance", "EDA"]
+    },
+    {
+      "image": "images/projects/banking-dashboard.png",
+      "title": "Banking Data Dashboard",
+      "bodyText": "- Built a **Jupyter Notebook dashboard** analyzing banking transactions and trends.\n- Highlighted customer segmentation and loan repayment patterns.\n- Used **Matplotlib**, **Seaborn**, and **Pandas** for visualization.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/SkSaminoor1/Banking-Dashboard"
+        }
+      ],
+      "tags": ["Python", "Analytics", "Dashboard", "Pandas", "Seaborn"]
+    },
+    {
+      "image": "images/projects/road-accident.png",
+      "title": "Road Accident Power BI Dashboard",
+      "bodyText": "- Designed **Power BI** reports analyzing 50k+ accident records.\n- Identified high-risk regions and visualized key safety metrics.\n- Assisted data-driven policy planning for transportation safety.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/SkSaminoor1/Road-Accident-PowerBi-Dashboard"
+        }
+      ],
+      "tags": ["Power BI", "Data Analytics", "Visualization", "Dashboard"]
+    },
+        {
+      "image": "images/projects/vibe-code.png",
+      "title": "Vibe Code",
+      "bodyText": "- Built a **TypeScript + React** full-stack app focused on collaborative coding and design themes.\n- Implemented component-driven UI and modular architecture for scalability.\n- Deployed with responsive layout and state management using **Redux Toolkit**.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/SkSaminoor1/Vibe-Code"
+        }
+      ],
+      "tags": ["TypeScript", "React", "Redux", "Frontend", "Full Stack"]
+    },
+    {
+      "image": "images/projects/medical-cost.png",
+      "title": "Medical Cost Prediction",
+      "bodyText": "- Trained regression models on 1.3k+ patient records to predict medical expenses.\n- Achieved 92% prediction accuracy using **Scikit-learn**.\n- Enhanced model robustness with feature scaling and outlier removal.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/SkSaminoor1/Medical-Cost-Prediction"
+        }
+      ],
+      "tags": ["Python", "Machine Learning", "Regression", "EDA"]
+    },
+    {
+      "image": "images/projects/ecommerce-performance.png",
+      "title": "E-commerce Performance Dashboard",
+      "bodyText": "- Visualized 10k+ sales records using **Power BI**, highlighting underperforming categories.\n- Revealed insights that improved conversion strategy and customer segmentation.\n- Designed interactive filters for management insights.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/SkSaminoor1/E-commerce-Performance-Analysis-with-Dashboard"
+        }
+      ],
+      "tags": ["Power BI", "Analytics", "Business Intelligence", "Visualization"]
+    },
+    {
+      "image": "images/projects/rock-paper.png",
+      "title": "Rock Paper Scissors Game",
+      "bodyText": "- Developed a simple console-based game in **Python**.\n- Demonstrated logic building, condition handling, and user input validation.\n- Great beginner project to showcase basic Python flow control.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/SkSaminoor1/Rock_Paper_Sccissor_py"
+        }
+      ],
+      "tags": ["Python", "Game", "Logic", "Beginner"]
+    }
+  ]
+}

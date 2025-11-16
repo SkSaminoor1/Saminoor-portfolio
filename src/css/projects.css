@@ -1,0 +1,53 @@
+/* Consistent sizing for all project images */
+.project-card-image {
+	width: 100%;
+	/* Fixed height to keep cards uniform; adjust as needed */
+	height: 220px;
+	object-fit: cover; /* crop to fill without distortion */
+	display: block;
+	/* Match Card radius on top corners */
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-color: #f3f3f3; /* graceful placeholder bg */
+}
+
+/* Optional: ensure card image area doesn't jump before load */
+.project-card-image[loading="lazy"] {
+	contain: paint;
+}
+
+/* Ensure all cards have same height and layout */
+.project-card {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+/* Make the content area expand and clamp long text */
+.project-card-body {
+	flex: 1 1 auto;
+}
+.project-card-body .card-title {
+	margin-bottom: 0.75rem;
+}
+.project-card-body .card-text {
+	display: -webkit-box;
+	-webkit-line-clamp: 8; /* number of lines to show */
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+/* Keep actions and footer pinned towards bottom */
+.project-card-actions {
+	margin-top: auto;
+}
+.project-card-footer {
+	/* no special rules for now; placeholder for future tweaks */
+}
+
+/* Responsive: slightly shorter cards on small screens */
+@media (max-width: 576px) {
+	.project-card-image { height: 200px; }
+	.project-card-body .card-text { -webkit-line-clamp: 10; }
+}
+

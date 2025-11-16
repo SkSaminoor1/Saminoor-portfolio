@@ -1,0 +1,47 @@
+{
+  "intro": "I love building data-driven systems, scalable web apps, and intelligent analytical solutions. I’m passionate about backend engineering, full-stack development, and data science — constantly exploring new technologies to make smarter, faster, and cleaner systems.",
+  
+  "skills": [
+    {
+      "title": "Languages & Databases",
+      "items": [
+        { "icon": "images/skills/python.png", "title": "Python" },
+        { "icon": "images/skills/js.png", "title": "JavaScript (ES6+)" },
+        { "icon": "images/skills/java.png", "title": "Java (Basics)" },
+        { "icon": "images/skills/sql.png", "title": "SQL" },
+        { "icon": "images/skills/mysql.png", "title": "MySQL" },
+        { "icon": "images/skills/postgresql.png", "title": "PostgreSQL" },
+        { "icon": "images/skills/mongodb.png", "title": "MongoDB" }
+      ]
+    },
+
+    {
+      "title": "Frameworks & Technologies",
+      "items": [
+        { "icon": "images/skills/react.png", "title": "React.js" },
+        { "icon": "images/skills/nodejs.png", "title": "Node.js" },
+        { "icon": "images/skills/express.png", "title": "Express.js" },
+        { "icon": "images/skills/django.png", "title": "Django" },
+        { "icon": "images/skills/flask.png", "title": "Flask" },
+        { "icon": "images/skills/restapi.png", "title": "RESTful APIs" },
+        { "icon": "images/skills/pandas.png", "title": "Pandas" },
+        { "icon": "images/skills/numpy.png", "title": "NumPy" },
+        { "icon": "images/skills/scikit.png", "title": "Scikit-Learn" },
+        { "icon": "images/skills/powerbi.png", "title": "Power BI" },
+        { "icon": "images/skills/tablea.png", "title": "Tableau" }
+      ]
+    },
+
+    {
+      "title": "Tools & Platforms",
+      "items": [
+        { "icon": "images/skills/git.png", "title": "Git" },
+        { "icon": "images/skills/github.png", "title": "GitHub" },
+        { "icon": "images/skills/docker.png", "title": "Docker" },
+        { "icon": "images/skills/aws.png", "title": "AWS (S3, EC2, QuickSight)" },
+        { "icon": "images/skills/vscode.png", "title": "VS Code" },
+        { "icon": "images/skills/jupyter.png", "title": "Jupyter Notebook" }
+      ]
+    }
+  ]
+}

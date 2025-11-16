@@ -1,0 +1,15 @@
+{
+  "short_name": "SK Saminoor",
+  "name": "SK Saminoor Hossain - Portfolio",
+  "icons": [
+    {
+      "src": "images/logo.png",
+      "type": "image/png",
+      "sizes": "425x225"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0d1117",
+  "background_color": "#ffffff"
+}
