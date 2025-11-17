@@ -4,7 +4,6 @@ import { Container } from 'react-bootstrap';
 import ReactMarkdown from 'react-markdown';
 import PropTypes from 'prop-types';
 import { ThemeContext } from 'styled-components';
-import Fade from 'react-reveal';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
@@ -56,46 +55,44 @@ function Experience(props) {
                 lineColor={theme.timelineLineColor}
               >
                 {data.map((item) => (
-                  <Fade>
-                    <TimelineItem
-                      key={item.title + item.dateText}
-                      dateText={item.dateText}
-                      dateInnerStyle={{ background: theme.accentColor }}
-                      style={styles.itemStyle}
-                      bodyContainerStyle={{ color: theme.color }}
-                    >
-                      <h2 className="item-title">
-                        {item.title}
-                      </h2>
-                      <div style={styles.subtitleContainerStyle}>
-                        <h4 style={{ ...styles.subtitleStyle, color: theme.accentColor }}>
-                          {item.subtitle}
-                        </h4>
-                        {item.workType && (
-                        <h5 style={styles.inlineChild}>
-                    &nbsp;·
-                          {' '}
-                          {item.workType}
-                        </h5>
-                        )}
-                      </div>
-                      <ul style={styles.ulStyle}>
-                        {item.workDescription.map((point) => (
-                          <div key={point}>
-                            <li>
-                              <ReactMarkdown
-                                children={point}
-                                components={{
-                                  p: 'span',
-                                }}
-                              />
-                            </li>
-                            <br />
-                          </div>
-                        ))}
-                      </ul>
-                    </TimelineItem>
-                  </Fade>
+                  <TimelineItem
+                    key={item.title + item.dateText}
+                    dateText={item.dateText}
+                    dateInnerStyle={{ background: theme.accentColor }}
+                    style={styles.itemStyle}
+                    bodyContainerStyle={{ color: theme.color }}
+                  >
+                    <h2 className="item-title">
+                      {item.title}
+                    </h2>
+                    <div style={styles.subtitleContainerStyle}>
+                      <h4 style={{ ...styles.subtitleStyle, color: theme.accentColor }}>
+                        {item.subtitle}
+                      </h4>
+                      {item.workType && (
+                      <h5 style={styles.inlineChild}>
+                  &nbsp;·
+                        {' '}
+                        {item.workType}
+                      </h5>
+                      )}
+                    </div>
+                    <ul style={styles.ulStyle}>
+                      {item.workDescription.map((point) => (
+                        <div key={point}>
+                          <li>
+                            <ReactMarkdown
+                              children={point}
+                              components={{
+                                p: 'span',
+                              }}
+                            />
+                          </li>
+                          <br />
+                        </div>
+                      ))}
+                    </ul>
+                  </TimelineItem>
                 ))}
               </Timeline>
             </Container>
