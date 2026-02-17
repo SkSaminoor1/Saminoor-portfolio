@@ -1,6 +1,26 @@
 {
   "experiences": [
     {
+      "title": "Advanced Artificial Superintelligence Systems R&D Intern",
+      "subtitle": "Chiac ASI",
+      "workType": "Internship",
+      "workDescription": [
+        "Worked on AI/ML model research and experimentation.",
+        "Assisted in developing intelligent system components.",
+        "Gained exposure to real-world AI workflows."
+      ],
+      "dateText": "02/2026 – Present"
+    },
+    {
+      "title": "Python Full Stack Developer Intern",
+      "subtitle": "Besant Technologies",
+      "workType": "Internship",
+      "workDescription": [
+        "Ongoing internship as a Python Full Stack Developer."
+      ],
+      "dateText": "02/2026 – Present"
+    },
+    {
       "title": "Data Science Intern",
       "subtitle": "ShadowFox!",
       "workType": "Internship",
