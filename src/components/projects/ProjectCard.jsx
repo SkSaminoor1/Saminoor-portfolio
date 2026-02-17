@@ -40,6 +40,10 @@ const ProjectCard = (props) => {
 
   const { project } = props;
 
+  const projectImageSrc = project?.image
+    ? `${(process.env.PUBLIC_URL || '').replace(/\/$/, '')}/${project.image}`
+    : undefined;
+
   return (
     <Col>
       <Card
@@ -52,7 +56,7 @@ const ProjectCard = (props) => {
       >
         <Card.Img
           variant="top"
-          src={project?.image}
+          src={projectImageSrc}
           alt={project?.title || 'Project image'}
           className="project-card-image"
           loading="lazy"

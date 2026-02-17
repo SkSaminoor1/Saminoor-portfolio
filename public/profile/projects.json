@@ -25,6 +25,30 @@
       "tags": ["Python", "AI", "Automation", "SpeechRecognition", "NLP"]
     },
     {
+      "image": "images/projects/smartwatch-ai.png",
+      "title": "SmartWatch AI: Live Stream Event Detection",
+      "bodyText": "- Built a real-time CCTV monitoring system using **Django**, **OpenAI Vision API**, and **OpenCV** to detect events from live YouTube streams using natural-language prompts.\n- Implemented RESTful APIs and asynchronous frame processing for efficient live analysis.\n- Optimized frame sampling strategy, reducing inference cost by ~85% while maintaining detection accuracy.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/SkSaminoor1/SmartWatch-AI-Live-Stream-Event-Detection.git"
+        }
+      ],
+      "tags": ["Django", "OpenCV", "Computer Vision", "OpenAI API", "REST API", "Real-time Systems"]
+    },
+    {
+      "image": "images/projects/ai-portfolio-reviewer.png",
+      "title": "AI Portfolio Reviewer",
+      "bodyText": "- Developed an AI-powered portfolio review tool using **Django** and **Selenium** to capture full-page screenshots of portfolio websites.\n- Generated actionable UI/UX and content feedback using **Gemini/OpenAI** models.\n- Implemented data persistence with **SQLite**, environment-based API key management, and optional cloud image storage.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/SkSaminoor1/AI-Portfolio-Reviewer.git"
+        }
+      ],
+      "tags": ["Django", "Selenium", "Generative AI", "Web Scraping", "SQLite", "AI Tools"]
+    },
+    {
       "image": "images/projects/health-analysis.png",
       "title": "Health Care Data Analysis",
       "bodyText": "- Analyzed healthcare records using **Python**, **Pandas**, and **Matplotlib** to uncover medical cost trends.\n- Applied EDA and data visualization techniques to identify patient behavior insights.\n- Generated actionable insights to optimize healthcare operations.",

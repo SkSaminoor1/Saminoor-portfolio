@@ -1,13 +1,15 @@
+const publicUrl = (process.env.PUBLIC_URL || '').replace(/\/$/, '');
+
 const endpoints = {
-  navbar: 'profile/navbar.json',
-  routes: 'profile/routes.json',
-  home: 'profile/home.json',
-  social: 'profile/social.json',
-  about: 'profile/about.json',
-  skills: 'profile/skills.json',
-  education: 'profile/education.json',
-  experiences: 'profile/experiences.json',
-  projects: 'profile/projects.json',
+  navbar: `${publicUrl}/profile/navbar.json`,
+  routes: `${publicUrl}/profile/routes.json`,
+  home: `${publicUrl}/profile/home.json`,
+  social: `${publicUrl}/profile/social.json`,
+  about: `${publicUrl}/profile/about.json`,
+  skills: `${publicUrl}/profile/skills.json`,
+  education: `${publicUrl}/profile/education.json`,
+  experiences: `${publicUrl}/profile/experiences.json`,
+  projects: `${publicUrl}/profile/projects.json`,
 };
 
 export default endpoints;
