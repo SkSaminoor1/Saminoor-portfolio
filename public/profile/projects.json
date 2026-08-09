@@ -1,6 +1,42 @@
 {
   "projects": [
     {
+  "image": "images/projects/keepsecret.png",
+  "title": "KeepSecret Secure Real-Time Messaging Platform",
+  "bodyText": "- Developed a secure real-time messaging platform using **JavaScript** with instant communication between users.\n- Implemented real-time message exchange and user-focused communication features.\n- Designed the platform with a focus on secure and reliable messaging.",
+  "links": [
+    {
+      "text": "GitHub",
+      "href": "https://github.com/SkSaminoor1/KeepSecret-Secure-Real-Time-Messaging-Platform"
+    }
+  ],
+  "tags": ["JavaScript", "Real-Time Messaging", "Web Development", "Security"]
+},
+{
+  "image": "images/projects/smartwatch-ai.png",
+  "title": "SmartWatch AI Live Stream Event Detection",
+  "bodyText": "- Developed an AI-powered event detection system using **Python** for analyzing live-streamed data.\n- Implemented real-time event detection capabilities to identify significant activities from live streams.\n- Applied **AI and computer vision** techniques to process and analyze streaming data.",
+  "links": [
+    {
+      "text": "GitHub",
+      "href": "https://github.com/SkSaminoor1/SmartWatch-AI-Live-Stream-Event-Detection"
+    }
+  ],
+  "tags": ["Python", "AI", "Computer Vision", "Real-Time Processing"]
+},
+{
+  "image": "images/projects/ai-portfolio-reviewer.png",
+  "title": "AI Portfolio Reviewer",
+  "bodyText": "- Developed an AI-powered application to analyze and review developer portfolios using **Python**.\n- Automated portfolio evaluation to provide actionable feedback on content, projects, and overall presentation.\n- Integrated AI-based analysis to help developers identify areas for improvement in their portfolios.",
+  "links": [
+    {
+      "text": "GitHub",
+      "href": "https://github.com/SkSaminoor1/AI-Portfolio-Revewer"
+    }
+  ],
+  "tags": ["Python", "Artificial Intelligence", "Portfolio Analysis", "Automation"]
+},
+    {
       "image": "images/projects/face-recognition.png",
       "title": "Face Recognition Attendance System",
       "bodyText": "- Developed an automated attendance system using **Python**, **OpenCV**, and **Flask**.\n- Achieved over 95% recognition accuracy for 50+ users.\n- Integrated **MySQL** backend and dashboard to visualize daily attendance logs.",
