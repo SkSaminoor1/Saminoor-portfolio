@@ -1,6 +1,15 @@
 {
   "experiences": [
     {
+      "title": "Python Full Stack Developer Intern",
+      "subtitle": "Besant Technologies",
+      "workType": "Internship",
+      "workDescription": [
+        "Ongoing internship as a Python Full Stack Developer."
+      ],
+      "dateText": "Ongoing"
+    },
+    {
       "title": "Advanced Artificial Superintelligence Systems R&D Intern",
       "subtitle": "Chiac ASI",
       "workType": "Internship",
@@ -9,16 +18,7 @@
         "Assisted in developing intelligent system components.",
         "Gained exposure to real-world AI workflows."
       ],
-      "dateText": "02/2026 – Present"
-    },
-    {
-      "title": "Python Full Stack Developer Intern",
-      "subtitle": "Besant Technologies",
-      "workType": "Internship",
-      "workDescription": [
-        "Ongoing internship as a Python Full Stack Developer."
-      ],
-      "dateText": "02/2026 – Present"
+      "dateText": "02/2026 – 05/2026"
     },
     {
       "title": "Data Science Intern",
@@ -32,17 +32,6 @@
       "dateText": "06/2024 – 09/2024"
     },
     {
-      "title": "Full Stack Intern",
-      "subtitle": "ShadowFox! (Virtual)",
-      "workType": "Internship",
-      "workDescription": [
-        "Built and deployed full-stack features using the MERN stack, improving app performance by 25%.",
-        "Developed REST APIs and integrated backend modules to support new dashboard features.",
-        "Worked in Agile sprints and enhanced UI responsiveness with optimized frontend logic."
-      ],
-      "dateText": "01/2024 – 04/2024"
-    },
-    {
       "title": "GenAI Data Analytics Simulation",
       "subtitle": "Tata Forage",
       "workType": "Virtual Internship",
@@ -52,6 +41,17 @@
         "Gained hands-on exposure to AI-driven analytics workflows and visualization pipelines."
       ],
       "dateText": "07/2024 – 08/2024"
+    },
+    {
+      "title": "Full Stack Intern",
+      "subtitle": "ShadowFox! (Virtual)",
+      "workType": "Internship",
+      "workDescription": [
+        "Built and deployed full-stack features using the MERN stack, improving app performance by 25%.",
+        "Developed REST APIs and integrated backend modules to support new dashboard features.",
+        "Worked in Agile sprints and enhanced UI responsiveness with optimized frontend logic."
+      ],
+      "dateText": "01/2024 – 04/2024"
     }
   ]
 }
